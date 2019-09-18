@@ -1,0 +1,42 @@
+
+@import (css) url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+@font-size: 14px;
+
+
+@small:      ~'only screen and (max-width: 20em)';
+@small-up:   ~'only screen and (min-width: 23.5em)';
+@medium:     ~'only screen and (min-width: 26.625em) and (max-width: 48em)';
+@medium-up:  ~'only screen and (min-width: 26.625em)';
+@large:      ~'only screen and (min-width: 48.0625em) and (max-width: 64em)';
+@large-up:   ~'only screen and (min-width: 48.0625em)';
+// Media query names like how we talk in the project (although "true" responsive webdesign shouldn't use these terms)
+@print: ~"print";
+@mobile: @small; // Don't use this if you're using other sizes too, because Mobile First should be the default.
+@tablet: @medium;
+@desktop: @medium-up;
+
+
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Ubuntu Mono', monospace;
+  text-align: justify;
+}
+.home {
+  hr {
+    border-color: orange;
+  }
+  @media @medium-up {
+    width: 40%;
+    height: 80vh;
+    font-size: @font-size;
+    margin: 0 auto;
+  }
+  @media @mobile {
+    height: 80vh;
+    font-size: @font-size;
+    margin: .5em .5em;
+  }
+}
+
+

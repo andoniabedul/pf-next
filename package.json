@@ -1,0 +1,21 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio of Andoni Abedul",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Andoni Abedul",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-less": "^1.0.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "less": "^3.10.3",
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
