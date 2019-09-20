@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap);
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Ubuntu Mono', monospace;
+  text-align: justify;
+}
+.home hr {
+  border-color: orange;
+}
+@media only screen and (min-width: 26.625em) {
+  .home {
+    width: 40%;
+    height: 80vh;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 20em) {
+  .home {
+    height: 80vh;
+    font-size: 14px;
+    margin: 0.5em 0.5em;
+  }
+}
+
+.social {
+  display: inline-block;
+  list-style-type: none;
+}
+.social:first-child {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.social-element {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 5px;
+  background-color: #d7d7d7;
+  user-select: none;
+  cursor: pointer;
+}
+.social-element-link {
+  color: black;
+  text-decoration: none;
+}
+
+.tags {
+  display: inline-block;
+  list-style-type: none;
+}
+.tags:first-child {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.tag {
+  display: inline-block;
+  padding: 0.5em;
+  margin-top: 0em;
+  margin: 0.5em;
+  border-radius: 5px;
+  background-color: #d7d7d7;
+  user-select: none;
+  color: black;
+}
+.tag-link {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.personal-name {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: typing 5s steps(50, end), blink 0.75s step-end infinite;
+  white-space: nowrap;
+  font-size: 30px;
+  font-weight: 700;
+  border-right: 4px solid orange;
+  box-sizing: border-box;
+}
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
