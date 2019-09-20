@@ -7,11 +7,11 @@ import Social from '../components/Social';
 import Tags from '../components/Tags';
 import Personal from '../components/Personal';
 // UTILS
-import { GITHUB_GIST_URL_V1 } from '../util/constants';
+import { FALLBACK_CV } from '../util/constants';
 
 const Home = (props) => {
   const lang = 'es_ES'
-  const data = props.langs[lang];
+  const data = props.langs[lang]
   return (
     <div className='home'>
       <Personal name={props.name} location={data.location} description={data.description} />
@@ -30,7 +30,8 @@ const Home = (props) => {
 }
 
 Home.getInitialProps = async function() {
-  const response = await fetch(GITHUB_GIST_URL_V1);
+  //const response = await fetch(GITHUB_GIST_URL_V1);
+  const response = FALLBACK_CV;
   return response;
 }
 
