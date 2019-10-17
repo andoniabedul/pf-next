@@ -1,9 +1,10 @@
 export const GITHUB_GIST_URL_V1 = "https://gist.githubusercontent.com/andoniabedul/a9885aec22ced01a57bc270743658120/raw/8faee3774111f3664713b580e18878a0fe2d86cc/aboutme.json";
 export const FALLBACK_CV = {
-  "name": "Andoni Abedul",
+  "name": "Andoni J. Abedul",
   "social": {
     "github": "https://github.com/andoniabedul",
-    "linkedin": "https://www.linkedin.com/in/andoniabedul"
+    "linkedin": "https://www.linkedin.com/in/andoniabedul",
+    "keybase": "https://keybase.io/abedul"
   },
   "langs": {
     "es_ES": {
@@ -35,8 +36,8 @@ export const FALLBACK_CV = {
           "link": "https://en.wikipedia.org/wiki/Austrian_School"
         },
         {
-          "name": "Sociología",
-          "link": ""
+          "name": "Filosofía",
+          "link": "https://es.wikipedia.org/wiki/Estoicismo"
         }
       ],
       "dev": {

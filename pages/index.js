@@ -18,8 +18,8 @@ const Home = (props) => {
       <hr />
       <div>
         <div>Lenguajes en los que disfruto desarrollar: <Tags elements={data.dev.langs} /></div>
-        <div>Con tecnología como: <Tags elements={data.dev.tech}/></div>
-        <div>Estoy prendiendo: <Tags elements={data.dev.learning} /></div>
+        <div>Con tecnologías como: <Tags elements={data.dev.tech}/></div>
+        <div>Estoy aprendiendo: <Tags elements={data.dev.learning} /></div>
       </div>
       <hr />
       <div>Pasiones: <Tags elements={data.passions} /></div>
