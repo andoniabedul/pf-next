@@ -15,14 +15,20 @@
 @tablet: @medium;
 @desktop: @medium-up;
 
+@_nav_padding: .5em;
+@_nav_height: 4em;
 
 body {
   background-color: #000000;
   color: #FFFFFF;
   font-family: 'Ubuntu Mono', monospace;
   text-align: justify;
+  margin: 0;
+  padding: 0;
 }
+
 .home {
+  padding-top: @_nav_padding + @_nav_height + 1em;
   hr {
     border-color: orange;
   }
@@ -37,6 +43,7 @@ body {
     font-size: @font-size;
     margin: .5em .5em;
   }
+  
 }
 
 

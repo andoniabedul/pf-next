@@ -5,6 +5,19 @@ export const FALLBACK_CV = {
     "github": "https://github.com/andoniabedul",
     "linkedin": "https://www.linkedin.com/in/andoniabedul"
   },
+  "menu": {
+    "title": "El cuaderno de Andoni",
+    "items": [
+      {
+        "url": "/about",
+        "label": "About"
+      },
+      {
+        "url": "/blog",
+        "label": "Blog"
+      }
+    ]
+  },
   "langs": {
     "es_ES": {
       "description": "Nacido en Caracas, Venezuela. Desarrollador FullStack. Apasionado por la tecnología, y lo que podemos crear desarrollando software. En mis tiempos libres me gusta jugar en la PS4, ver películas/series y leer.",
